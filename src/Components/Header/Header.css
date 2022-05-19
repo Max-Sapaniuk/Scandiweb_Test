@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.headerItem {
+    width: 33%;
+    text-align: center;
+    padding: 30px;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerMenuItem {
+    padding: 0 10px 0 10px;
+    /*align-self: center;*/
+}
+
+.headerLink {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 16px 0 16px;
+    padding: 16px 0 16px 0;
+    text-decoration: none;
+}
+
+.active {
+    color: #5ECE7B;
+    border-bottom: 2px solid #5ECE7B;
+    padding-bottom: 30px;
+}

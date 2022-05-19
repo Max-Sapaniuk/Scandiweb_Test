@@ -1,0 +1,31 @@
+.productImage {
+    width: 354px;
+}
+
+.productName {
+    padding-top: 24px;
+}
+
+.productPrice {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.productContainer {
+    justify-self: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    position: relative;
+}
+.productContainer:hover {
+    padding: 16px;
+    box-shadow: 0 0 15px 15px rgba(168, 172, 176, 0.19);
+}
+
+.cartButton {
+    position: absolute;
+    bottom: 52px;
+    left: 280px;
+}
