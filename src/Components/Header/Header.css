@@ -1,25 +1,24 @@
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 80px;
-}
-
-.headerItem {
-    width: 33%;
-    text-align: center;
-    padding: 30px;
-}
-
-.headerMenu {
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.headerMenuItem {
-    padding: 0 10px 0 10px;
-    /*align-self: center;*/
+.headerItem1 {
+    position: absolute;
+    left: 7%;
+}
+
+.headerItem2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.headerItem3 {
+    position: absolute;
+    right: 7%;
 }
 
 .headerLink {
@@ -28,6 +27,15 @@
     margin: 0 16px 0 16px;
     padding: 16px 0 16px 0;
     text-decoration: none;
+}
+
+.headerMenu {
+    display: flex;
+}
+
+.headerMenuItem {
+    align-self: center;
+    padding: 0 10px 0 10px;
 }
 
 .active {

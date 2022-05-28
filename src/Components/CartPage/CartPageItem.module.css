@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+    gap: 24px;
+    height: 400px;
+}
+.item {
+
+}
+
+.data {
+    /*flex-basis: 0%;*/
+    font-size: 16px;
+    flex: 9;
+}
+
+.number {
+    height: 400px;
+    /*flex-basis: 24px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.image {
+    /*flex-basis: 120px;*/
+    max-width: 200px;
+    min-height: 300px;
+    object-fit: contain;
+    flex: 2;
+}
+
+.colors {
+    display: inline-block;
+    border: 1px solid black;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    margin: 3px;
+
+}
+
+.activeText {
+    background-color: black;
+    color: white;
+}
+
+.activeSwatch {
+    border: 1px solid #5ECE7B;
+    padding: 1px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageButtons {
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+}

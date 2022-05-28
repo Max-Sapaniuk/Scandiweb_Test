@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+
+}
+.item {
+}
+
+.data {
+    flex-basis: 140px;
+    font-size: 16px;
+}
+
+.number {
+    height: 200px;
+    flex-basis: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image {
+    flex-basis: 120px;
+    max-width: 120px;
+    min-height: 200px;
+    object-fit: contain;
+}
+
+.colors {
+    display: inline-block;
+    border: 1px solid black;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    margin: 3px;
+
+}
+
+.activeText {
+    background-color: black;
+    color: white;
+}
+
+.activeSwatch {
+    border: 1px solid #5ECE7B;
+    padding: 1px;
+}

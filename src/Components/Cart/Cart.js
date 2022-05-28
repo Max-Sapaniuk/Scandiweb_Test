@@ -1,13 +1,9 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-
-class Cart extends React.Component{
-    render() {
-        return <div>
+function Cart() {
+    return (
+        <div>
             <h1>
                 Cart
             </h1>
-        </div>
-    }
+        </div>)
 }
 export default Cart

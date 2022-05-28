@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    margin: 80px 7% 0 7%;
+    justify-content: center;
+}
+
+.items {
+
+}
+.item1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.item2 {
+    margin-right: 100px;
+}
+
+.item3 {
+
+}
+.sideImages {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.mainImage {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.colors {
+    display: inline-block;
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    padding: 1px;
+    margin: 3px;
+
+}
+
+.activeText {
+    background-color: black;
+    color: white;
+}
+
+.activeSwatch {
+    border: 1px solid #5ECE7B;
+    padding: 1px;
+}

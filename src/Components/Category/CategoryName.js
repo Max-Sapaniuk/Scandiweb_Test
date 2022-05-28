@@ -5,7 +5,7 @@ class CategoryName extends React.Component {
     render() {
         return (
             <div className={"containerCategoryName"}>
-                Category name
+                {this.props.name}
             </div>
         )
     }
